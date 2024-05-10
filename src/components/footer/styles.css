@@ -1,0 +1,28 @@
+.footer {
+    background: #0b0b0b;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.navbar-default, a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+}
+
+.title-footer {
+    font-size: 18px;
+}
+
+.social-icons a {
+    padding: 0 5px;
+    font-size: 21px;
+}
+

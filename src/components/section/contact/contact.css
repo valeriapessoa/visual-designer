@@ -1,0 +1,226 @@
+.contact-us {
+    padding: 85px 0 100px 0;
+    background: url(../../assets/images/contact-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+.form-control::placeholder {
+    color:#999;
+    opacity:1
+}
+
+#contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact-us p {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+
+
+.contact-us .form-control:focus {
+    color: #ffffff;
+}
+
+.contact-us input:-internal-autofill-selected,
+.contact-us input:-webkit-autofill,
+.contact-us input:autofill,
+.contact-us input:-webkit-autofill,
+.contact-us input:-webkit-autofill:hover,
+.contact-us input:-webkit-autofill:focus,
+.contact-us input:-webkit-autofill:active{
+    background-color: transparent;
+}
+
+.heading p {
+    margin: 0 0 50px 0;
+    line-height: 30px;
+}
+
+#contact .form-group {
+    margin-bottom: 25px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group input, #contact .form-group textarea {
+    padding: 10px;
+}
+
+.map-marker-icon .phone-icon .envelope-icon .globe-icon  {
+    font-size: 18px;
+    width: 25px;
+}
+
+.globe-icon {
+    font-size: 18px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-control:focus {
+    border-color: #ffcc33;
+    box-shadow: none;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+    padding: 10px;
+}
+
+.form-control {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .4);
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    border-color: #ffcc33;
+    outline: 0;
+}
+
+.submit-bt {
+    border: 2px solid #fecb38;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: none!important;
+}
+
+.submit-bt:hover {
+    border: 2px solid #fecb38;
+    background: #fecb38!important;
+    color: #000!important;
+}
+
+
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.contact-info ul li {
+    margin-bottom: 8px;
+}
+
+.contact-info ul li {
+    color: #fff;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 136px;
+}
+
+textarea.form-control {
+    height: auto;
+	min-height: 150px;
+    resize: none;
+}
+
+.form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-info p {
+    margin: -5px 0 0 0;
+    padding: 0;
+    font-size: 14px!important;
+}
+
+p {
+    margin: 0 0 11.5px;
+}
+
+
+ul.address {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 991px) {
+    #contact p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-info {
+        margin: 50px 0 0 0;
+    }
+
+    .contact-us {
+        padding: 60px 0;
+    }
+
+    .heading p {
+        margin: 0 0 30px;
+    }
+}
+
+
+
+
+

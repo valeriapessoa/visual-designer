@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body, html {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	line-height: 1.8em;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-ms-overflow-style:scrollbar;
+	-webkit-tap-highlight-color:transparent;
+	background:#222;
+	overflow-x:hidden;
+}
+
+/* Main Modal - Section */
+p {
+	font-size: 200px;
+}
+
+.heading p {
+    margin: 0 0 50px 0;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.what-we  {
+	padding:88px 0 100px 0!important;
+	background: url(./assets/images/about-bg.jpg) no-repeat center top fixed!important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover!important;
+}
+
+@media (max-width: 1024px) {
+    .our-blog-posts-ds p {
+        font-size: 13px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    #about {
+        padding: 12% 0 12% 0;
+    }
+
+    #about p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        padding: 15% 0 15% 0;
+    }
+
+    #about p {
+        line-height: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Project Modal - Section */
+.no-padding {
+	padding:0
+}
+
+.no-gutter>[class*=col-] {
+	padding-right:0;
+	padding-left:0
+}
+
+@media (max-width:480px) {
+	#Projects .col-sm-6 { padding-right:5px; padding-left:5px}
+	#Projects .row { margin:0 -5px!important}
+}
+
+
+/* Blog Posts - Section */
+#blog-posts {
+    background: #fff!important;
+    padding: 90px 0 100px 0;
+}
+
+#blog-posts p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    #blog-posts p {
+        font-size: 15px;
+    }
+
+    .entry-header a {
+        line-height: 18px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    #blog-posts {
+        padding: 60px 0;
+    }
+
+    .heading p {
+        margin: 0 0 30px;
+    }
+
+}
+
+
+
+
+
+
+/* Services - Section */
+
+.col-center {
+    margin: 0 auto;
+    float: none!important;
+}
+
+/* Titulo contato */
+.col-center {
+    margin: 0 auto;
+}
+
+.col-center {
+    margin: 0 auto;
+    float: none!important;
+}
+
+/* ********************************* */
+
+@media (max-width: 991px){
+    #services h3 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #about h2, #Projects h4, #services h3, #blog-posts h2, #contact h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 480px){
+    #about h2, #Projects h4, #blog-posts h2, #contact h2, #services h3 {
+        font-size: 30px;
+        background-size: 50px;
+    }
+}
+
+#preloader {
+    background: #17181a url(./assets/images/circles.svg) no-repeat center center;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-size: 50px;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+

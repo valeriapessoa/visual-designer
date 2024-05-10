@@ -1,0 +1,107 @@
+#blog-posts-in .about-css h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+#blog-posts-in .blog-posts-left {
+    padding-right: 20px;
+}
+
+#blog-posts-in .about-css h3 a, #blog-posts-in .blog-posts-left-grid h4 {
+    color: #fff;
+}
+
+#blog-posts-in h4 {
+    font-size: 18px;
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+    font-weight: 400;
+}
+
+#blog-posts-in .img-div {
+    margin: 0 0 15px 0;
+}
+
+#blog-posts-in .posts-left {
+    float: left;
+    width: 35%;
+    height:150px;
+}
+
+#blog-posts-in .posts-left img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+#blog-posts-in .img-blog-posts {
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#blog-posts-in .about-css p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 11.5px;
+    padding: 0;
+}
+
+
+#blog-posts-in .text-css {
+    background: none;
+    border: solid 1px #313133;
+    color: #fff;
+}
+
+#blog-posts-in .form-control {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .4);
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#blog-posts-in .form-control:focus {
+    border-color: #ffcc33;
+    outline: 0;
+}
+
+#blog-posts-in .form-group {
+    margin-bottom: 20px;
+}
+
+.button-submit {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: 2px solid #fecb38;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: none!important;
+}
+
+.button-submit:hover {
+    border: 2px solid #fecb38!important;
+    background: #fecb38!important;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+

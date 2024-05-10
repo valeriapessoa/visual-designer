@@ -1,0 +1,169 @@
+.no-gutter>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+figure.effect-ruby {
+    background-color: #000;
+    max-height: 297px;
+}
+
+.grid figure {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure.effect-ruby:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-ruby img {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.grid figure figcaption, .grid figure figcaption > a {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 99.5%;
+    height: 100%;
+    z-index: 1;
+}
+
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure.effect-ruby h2 {
+    margin-top: 20%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+}
+
+figure.effect-ruby:hover h2 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.grid figure h2, .grid figure p {
+    margin: 0;
+}
+
+.grid figure h2 {
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.grid figure.effect-ruby:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}
+
+.grid figure.effect-ruby p {
+    margin: 1em 0 0;
+    padding: 1em;
+    border: 1px solid #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0) scale(1.1);
+    transform: translate3d(0,20px,0) scale(1.1);
+}
+.grid figure p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.grid figure h2, .grid figure p {
+    margin: 0;
+}
+p {
+    margin: 0 0 11.5px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1500px){
+    .grid figure figcaption {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    figure.effect-ruby p {
+        padding:1em!important;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .grid figure figcaption {
+        padding: 1em!important;
+    }
+}
+
+
+@media (max-width:768px) {
+    figure.effect-ruby p {
+        padding:1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
